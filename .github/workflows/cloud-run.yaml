@@ -28,7 +28,7 @@ env:
 
 jobs:
   setup-build-deploy:
-    name: Setup, Build, and Deploy
+    - name: Setup, Build, and Deploy
     runs-on: ubuntu-latest
 
     steps:
